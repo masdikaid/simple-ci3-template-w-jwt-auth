@@ -1,64 +1,57 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>404 Page Not Found</title>
-<style type="text/css">
+    <meta charset="UTF-8">
+    <title>Tindakan tidak dikenali</title>
 
-::selection { background-color: #E13300; color: white; }
-::-moz-selection { background-color: #E13300; color: white; }
+    <!--Popins Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-body {
-	background-color: #fff;
-	margin: 40px;
-	font: 13px/20px normal Helvetica, Arial, sans-serif;
-	color: #4F5155;
-}
+    <!--CSS-->
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/master.css">
 
-a {
-	color: #003399;
-	background-color: transparent;
-	font-weight: normal;
-}
+    <!--JS-->
+    <script src="<?= base_url() ?>assets/js/jquery/jquery.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/alert/sweetalert2.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/master.js"></script>
 
-h1 {
-	color: #444;
-	background-color: transparent;
-	border-bottom: 1px solid #D0D0D0;
-	font-size: 19px;
-	font-weight: normal;
-	margin: 0 0 14px 0;
-	padding: 14px 15px 10px 15px;
-}
+    <script>
+        const base_url = "<?= base_url() ?>"
+    </script>
 
-code {
-	font-family: Consolas, Monaco, Courier New, Courier, monospace;
-	font-size: 12px;
-	background-color: #f9f9f9;
-	border: 1px solid #D0D0D0;
-	color: #002166;
-	display: block;
-	margin: 14px 0 14px 0;
-	padding: 12px 10px 12px 10px;
-}
-
-#container {
-	margin: 10px;
-	border: 1px solid #D0D0D0;
-	box-shadow: 0 0 8px #D0D0D0;
-}
-
-p {
-	margin: 12px 15px 12px 15px;
-}
-</style>
 </head>
 <body>
-	<div id="container">
-		<h1><?php echo $heading; ?></h1>
-		<?php echo $message; ?>
-	</div>
+<style>
+    body {
+        background-color: white;
+    }
+
+    a {
+        font-size: 15px !important;
+    }
+</style>
+<!--begin:header landing page-->
+<header>
+    <div class="py-3 container px-0 d-flex flex-row justify-content-between">
+        <div class="d-inline-block d-flex flex-row align-items-center">
+            <img class="align-top" src="<?= base_url() ?>assets/media/logo.png" alt="MyPertamina Logo"/>
+            <div class="d-inline-block pl-3">
+                <h6 class="font-weight-bold mb-1">Web Verifikasi Subsidi Tepat</h6>
+                <p class="font-weight-light">Pengguna BBM bersubsidi harus terdaftar di aplikasi MyPertamina<br>
+                    untuk bertransaksi BBM subsidi.</p>
+            </div>
+        </div>
+    </div>
+</header>
+<!--end:header landing page-->
+
+<div class="d-flex flex-column container justify-content-center">
+    <img src="<?= base_url() ?>assets/media/oops.png" alt="opps" class="w-50 mx-auto">
+    <a class="btn btn-primary btn-lg w-25 mx-auto mt-4 rounded-pill" href="<?= base_url() ?>">Kembali ke halaman verifikasi</a>
+</div>
 </body>
 </html>
