@@ -1,6 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+date_default_timezone_set('Asia/Jakarta');
+
+$config['WEB_KEY'] = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9';
+
+
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
@@ -23,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost:8888/mpv-verifikasi-perusahaan-subsidi-tepat/';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +40,7 @@ $config['base_url'] = '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
