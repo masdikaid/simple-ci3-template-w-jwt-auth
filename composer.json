@@ -1,6 +1,6 @@
 {
-	"description": "mpv verifikasi perusahaan subsidi tepat",
-	"name": "data-nusantara/mpv-verifikasi-perusahaan-subsidi-tepat",
+	"description": "simple ci3 template with jwt auth",
+	"name": "masdikaid/simple ci3 template with jwt auth",
 	"type": "project",
 	"homepage": "https://codeigniter.com",
 	"license": "MIT",

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mpv-verifikasi-perusahaan-subsidi-tepat.iml" filepath="$PROJECT_DIR$/.idea/mpv-verifikasi-perusahaan-subsidi-tepat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/simple ci3 template with jwt auth.iml" filepath="$PROJECT_DIR$/.idea/simple ci3 template with jwt auth.iml" />
     </modules>
   </component>
 </project>
